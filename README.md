@@ -1,2 +1,4 @@
 # Java-Zero-To-Hero
-Repositorio de notas y ejercicios del bootCam
+Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por la comunidad de JAVA Latinoamérica. 
+
+
