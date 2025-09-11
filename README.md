@@ -215,6 +215,10 @@ Como se puede observar la función se crea correctamente, recibe los emojis en l
   <img width="724" height="153" alt="image" src="https://github.com/user-attachments/assets/970facfd-ccdb-4355-b44c-81c03b10c5f2" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 8 - Llenado de caracteres
 
 Este ejercicio requiere crear una función que sea capaz de insertar un caracter en la posición deseada dentro de una cadena de texto fija. El código para esta función sería el siguiente:
