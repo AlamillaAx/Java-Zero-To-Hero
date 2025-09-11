@@ -1,5 +1,14 @@
 # Java-Zero-To-Hero
-Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por la comunidad de JAVA Latinoamérica. 
+Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por la comunidad oficial de JAVA. 
+
+## Menu de ejercicios 
+
+* #### Errores del compilador y de ejecución
+  * [Ir a Ejercicio 1](#ejercicio-1)
+  * [Ir a Ejercicio 2](#ejercicio-2)
+  * [Ir a Ejercicio 3](#ejercicio-3)
+  * [Ir a Ejercicio 4](#ejercicio-4)
+* #### Ejercicios de codificación
 
 ## Errores del compilador y de ejecución
 
@@ -156,4 +165,156 @@ String err6(){
 </div>
 
 ## Ejercicios de codificación
+
+## Ejercicio 7 - Adivina la pelicula 
+
+Este ejercicio requiere crear una función que reciba 3 emojis y los devuelva a la salida entre parentesis separados por una coma. El código para la función sería el siguiente:
+
+```java
+String adivinaLaPelicula(String emoji1, String emoji2, String emoji3){
+  return String.format("[%s,%s,%s]",emoji1,emoji2,emoji3);
+}
+```
+
+Como se puede observar la función se crea correctamente, recibe los emojis en la función y los muestra al final en el formato esperado. Los emojis no se muestran correctamente a la salida por temas de la terminal de Windows, pero la funcion es correcta.
+
+<div align='center'>
+  <img width="724" height="153" alt="image" src="https://github.com/user-attachments/assets/970facfd-ccdb-4355-b44c-81c03b10c5f2" />
+</div>
+
+## Ejercicio 8 - Llenado de caracteres
+
+Este ejercicio requiere crear una función que sea capaz de insertar un caracter en la posición deseada dentro de una cadena de texto fija. El código para esta función sería el siguiente:
+
+```java
+String konnichiwa(String dare){
+  return String.format("こんにちは%s",dare);
+}
+```
+
+Como se puede observar a continuación la función se crea sin problemas y funciona correctamente, dado el parametro "D" lo concateno con la cadena declarada dentro de la función. De igual forma la terminal de Windows no reconoce correctamente los caracteres en japones pero la función es correcta.
+
+<div align='center'>
+  <img width="545" height="143" alt="image" src="https://github.com/user-attachments/assets/4a739c48-a206-4e8a-aaa0-cc42123262ab" />
+</div>
+
+## Ejercicio 9 
+
+Este ejercicio requiere crear una función que devuelva el separador "<<<>>>". A continuación, se muestra el código para esta función:
+
+```java
+String separador(){
+  return "<<<>>>";
+}
+```
+
+Como se muestra a continuación la función se crea correctamente y devuelve el valor deseado.
+
+<div align='center'>
+  <img width="300" height="152" alt="image" src="https://github.com/user-attachments/assets/b57fa1b8-ddb4-4d68-9a33-ab95fb67f2ef" />
+</div>
+
+## Ejercicio 10
+
+Este ejercicio requiere crear una función que devuelva las vocales "aeiou". A continuación, se muestra el código para esta función:
+
+```java
+String vocales(){
+  return "aeiou";
+}
+```
+
+Como se muestra a continuación la función se crea correctamente y devuelve el valor deseado.
+
+<div align='center'>
+  <img width="279" height="138" alt="image" src="https://github.com/user-attachments/assets/3e49ac44-6a79-4018-b448-5c4d51c735b2" />
+</div>
+
+## Ejercicio 11
+
+Este ejercicio requiere crear una función que adorne un string devolviendolo entre "<<< >>>". A continuación se muestra el código para esta función:
+
+```java
+String tituloAdornado(String texto){
+  return String.format("<<< %s >>>",texto);
+}
+```
+
+Como se muestra a continuación la función se crea correctamente y devuelve el valor deseado. Para este ejercico se pidio realizar tres ejemplos. 
+
+<div align='center'>
+  <img width="512" height="261" alt="image" src="https://github.com/user-attachments/assets/c49a649a-74d3-445d-b9fe-d07ac31dc31d" />
+</div>
+
+
+## Ejercicios de corrección de código
+
+Para estos ejercicios se brinda un codigo que contiene un error, se debe verificar la función y corregir para que devuelva la salida esperada.
+
+## Ejercicio 12 
+
+Este ejercicio requiere que la función reciba una frase y devuelva el valor entre "<= =>". El código dado es el siguiente:
+
+```java
+String adornar(String frase){
+  return String.format("<=%s=>, frase");
+}
+```
+
+Como se observa a continuación, la función se crea correctamente pero al utilizarla esta muestra un error.
+
+<div align='center'>
+<img width="691" height="235" alt="image" src="https://github.com/user-attachments/assets/40fc94b6-a218-4f99-9458-5d6ab6b050b7" />
+</div>
+
+Este error se debe a que la sintaxis dada para String.format no es correcta, debido a que en el código erreoneo el parametro frase se encuentra dentro de la cadena texto es tomada como tal y no reconoce ningún valor que sustituir en el marcador de posición (%s), debería ser como a continuación se muestra:
+
+```java
+String adornar(String frase){
+  return String.format("<=%s=>", frase);
+}
+```
+
+Una vez corregida podemos observar que la función ya no muestra ningún error al ejecutarla y devuelve los valores esperados.
+
+<div align='center'>
+<img width="489" height="201" alt="image" src="https://github.com/user-attachments/assets/b26ed52b-9738-4c3b-9eb2-c34d6b0d3e16" />
+</div>
+
+## Ejercicio 13 
+
+Este ejercicio requiere que la función reciba dos parametros y los muestre concatenados a la salida. El código dado es el siguiente:
+
+```java
+String concatenar(String s1, String s2){
+  return String.format("[%s+%s]", s2, s1);
+}
+```
+
+Las salidas esperadas para esta función son:
+
+<div align='center'>
+  <img width="649" height="87" alt="image" src="https://github.com/user-attachments/assets/de2492d5-1798-4a5f-ac43-608ac6fb41bc" />
+</div>
+
+Probando la función se crea correctamente pero la salida no es la esperada:
+
+<div align='center'>
+  <img width="502" height="100" alt="image" src="https://github.com/user-attachments/assets/12f3d6e1-1bcb-4b74-923e-8af7aeafcc1d" /> <br>
+  <img width="342" height="64" alt="image" src="https://github.com/user-attachments/assets/fd3ad4d1-d3e3-410d-80c1-0ec791ae11f2" />
+</div>
+
+Esto más que un error se puede considerar como una confución por parte del desarrollador de la función, ya que, invirtió las posiciones de los parametros de entrada y por ello devuelve un valor diferente al esperado. La función debe ser como a continuación se muestra:
+
+```java
+String concatenar(String s1, String s2){
+  return String.format("[%s+%s]", s1, s2);
+}
+```
+
+Con esta pequeña corrección se obtienen las salidas esperadas:
+
+<div align='center'>
+  <img width="533" height="205" alt="image" src="https://github.com/user-attachments/assets/0b2bdef6-3d27-4e57-a126-fc4234410c53" />
+</div>
 
