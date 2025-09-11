@@ -22,6 +22,8 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 
 ## Errores del compilador y de ejecución
 
+El objetivo de estos ejercicios es visualizar los errores que arroja cada función al intentar crearlas, entender el error y corregirlo para que funcione correctamente. 
+
 ## Ejercicio 1
 
 ```java
@@ -198,6 +200,8 @@ String err6(){
 </div>
 
 ## Ejercicios de codificación
+
+El objetivo de estos ejercicios es desarrollar una función desde cero teniendo solamente las salidas deseadas para cada una.
 
 ## Ejercicio 7 - Adivina la pelicula 
 
