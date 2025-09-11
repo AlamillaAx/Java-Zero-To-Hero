@@ -1,19 +1,3 @@
-<style>
-.retorno-menu {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px; 
-  border-radius: 5px;
-  border: 1px solid #007bff; 
-  text-decoration: none;
-}
- .retorno-menu:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-</style>
-
 # Java-Zero-To-Hero
 Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por la comunidad oficial de JAVA. 
 
@@ -63,7 +47,7 @@ String err1(){
 </div>
 
 <div align='right'>
-<a href="#menu-de-ejercicios" class="retorno-menu">Regresar al menú</a>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 ## Ejercicio 2
@@ -91,6 +75,10 @@ String err2(){
   <img width="373" height="148" alt="image" src="https://github.com/user-attachments/assets/db18c092-0e78-4895-ae85-fe2cc22452df" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 3
 
 ```java
@@ -116,6 +104,10 @@ String err3(String who){
 <img width="581" height="153" alt="image" src="https://github.com/user-attachments/assets/a78c543e-f3e2-45ca-a157-1de11607cc01" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 4
 
 ```java
@@ -139,6 +131,10 @@ String err4(){
 ```
 <div align='center'>
   <img width="452" height="151" alt="image" src="https://github.com/user-attachments/assets/efff99fb-56d6-44e5-aa04-d63eb25a4a98" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 ## Ejercicio 5
@@ -167,6 +163,10 @@ String err5(){
   <img width="459" height="155" alt="image" src="https://github.com/user-attachments/assets/91930898-1e54-4f52-8779-b81457f339e1" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 6
 
 ```java
@@ -191,6 +191,10 @@ String err6(){
 
 <div align='center'>
   <img width="349" height="155" alt="image" src="https://github.com/user-attachments/assets/1ea24a01-5050-4839-927c-aea7b6809c25" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 ## Ejercicios de codificación
@@ -227,6 +231,10 @@ Como se puede observar a continuación la función se crea sin problemas y funci
   <img width="545" height="143" alt="image" src="https://github.com/user-attachments/assets/4a739c48-a206-4e8a-aaa0-cc42123262ab" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 9 
 
 Este ejercicio requiere crear una función que devuelva el separador "<<<>>>". A continuación, se muestra el código para esta función:
@@ -241,6 +249,10 @@ Como se muestra a continuación la función se crea correctamente y devuelve el 
 
 <div align='center'>
   <img width="300" height="152" alt="image" src="https://github.com/user-attachments/assets/b57fa1b8-ddb4-4d68-9a33-ab95fb67f2ef" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 ## Ejercicio 10
@@ -273,6 +285,10 @@ Como se muestra a continuación la función se crea correctamente y devuelve el 
 
 <div align='center'>
   <img width="512" height="261" alt="image" src="https://github.com/user-attachments/assets/c49a649a-74d3-445d-b9fe-d07ac31dc31d" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 
@@ -310,6 +326,10 @@ Una vez corregida podemos observar que la función ya no muestra ningún error a
 <img width="489" height="201" alt="image" src="https://github.com/user-attachments/assets/b26ed52b-9738-4c3b-9eb2-c34d6b0d3e16" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 13 
 
 Este ejercicio requiere que la función reciba dos parametros y los muestre concatenados a la salida. El código dado es el siguiente:
@@ -345,5 +365,9 @@ Con esta pequeña corrección se obtienen las salidas esperadas:
 
 <div align='center'>
   <img width="533" height="205" alt="image" src="https://github.com/user-attachments/assets/0b2bdef6-3d27-4e57-a126-fc4234410c53" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
