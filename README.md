@@ -46,6 +46,10 @@ String err1(){
 <img width="403" height="91" alt="image" src="https://github.com/user-attachments/assets/ecc80878-7609-4d63-8c00-51d613519947" />
 </div>
 
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
 ## Ejercicio 2
 
 ```java
