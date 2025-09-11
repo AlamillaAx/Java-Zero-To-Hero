@@ -1,3 +1,19 @@
+<style>
+.retorno-menu {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  border: 1px solid #007bff; 
+  text-decoration: none;
+}
+ .retorno-menu:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+</style>
+
 # Java-Zero-To-Hero
 Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por la comunidad oficial de JAVA. 
 
@@ -47,7 +63,7 @@ String err1(){
 </div>
 
 <div align='right'>
-<a href="#menu-de-ejercicios">Regresar al menú</a>
+<a href="#menu-de-ejercicios" class="retorno-menu">Regresar al menú</a>
 </div>
 
 ## Ejercicio 2
@@ -73,7 +89,6 @@ String err2(){
 ```
 <div align='center'>
   <img width="373" height="148" alt="image" src="https://github.com/user-attachments/assets/db18c092-0e78-4895-ae85-fe2cc22452df" />
-
 </div>
 
 ## Ejercicio 3
