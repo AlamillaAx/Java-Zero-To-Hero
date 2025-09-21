@@ -19,6 +19,8 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 * ### Ejercicios de corrección de código
   * [Ir a Ejercicio 12](#ejercicio-12)
   * [Ir a Ejercicio 13](#ejercicio-13)
+ * ### Errores del compilador y de ejecución
+  *  
 
 ## Errores del compilador y de ejecución
 
@@ -379,3 +381,307 @@ Con esta pequeña corrección se obtienen las salidas esperadas:
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
+## Operadores - Errores del compilador y de ejecución
+
+En estos ejercicios observaremos los errores más comunes durante el uso de operadores así como la solución para cada uno de ellos. 
+
+## Ejercicio 14
+
+Este ejercicio requiere crear una función para realizar una multiplicación.
+
+```java
+int multiplicacion(String numero1, String numero2) {
+  return numero1 * numero2;
+}
+```
+
+Al crear la función se visualiza el siguiente error, el cual indica que no se puede utilizar un operador de multiplicación con datos de tipo cadena o string. 
+
+<div align='center'>
+  <img width="571" height="189" alt="image" src="https://github.com/user-attachments/assets/9b6633c7-b518-48b9-a6ef-55175ccf4c4b" />
+</div>
+
+Al corregir el tipo de dato de los parametros de entrada observamos que la función se crea sin inconvenientes y es utilizable.
+
+```java
+int multiplicacion(int numero1, int numero2) {
+  return numero1 * numero2;
+}
+```
+<div align='center'>
+<img width="524" height="149" alt="image" src="https://github.com/user-attachments/assets/4f238560-9ebb-4819-881e-6eb61fabbadc" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 15
+
+Este ejercicio requiere crear una función para realizar una suma
+
+```java
+int suma(int numero1, int numero2) {
+  return + numero1 numero2;
+}
+```
+
+Al crear la función se visualiza el siguiente error, el cual nos indica que la posición del operador suma no es la correcta, ya que debe estar entre los numeros a operar para funcionar correctamente.
+
+<div align='center'>
+  <img width="431" height="225" alt="image" src="https://github.com/user-attachments/assets/1b8b8666-e50d-45d5-802e-f28d8a7798e0" />
+</div>
+
+Al corregir la posición del operador observamos que la función se crea sin inconvenientes y es utilizable.
+
+```java
+int suma(int numero1, int numero2) {
+  return numero1 + numero2;
+}
+```
+<div align='center'>
+<img width="415" height="151" alt="image" src="https://github.com/user-attachments/assets/bc5fc641-8c5f-409c-b3d1-274da4513487" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 16
+
+Este ejercicio requiere crear una función para realizar la comparación de un valor con respecto a otros dados.
+
+```java
+boolean positivoMenorDe20(int numero) {
+  return numero > 0 && <20;
+}
+```
+
+Al crear la función se visualiza el siguiente error, el cual nos indica que hace falta el parametro a comprar en esa parte de la función.
+
+<div align='center'>
+  <img width="438" height="145" alt="image" src="https://github.com/user-attachments/assets/3ef18d49-09b0-4a5a-b732-fde089198969" />
+</div>
+
+Al agregar el parametro en la comparación observamos que la función se crea sin inconvenientes y es utilizable.
+
+```java
+boolean positivoMenorDe20(int numero) {
+  return numero > 0 && numero < 20;
+}
+```
+<div align='center'>
+<img width="450" height="210" alt="image" src="https://github.com/user-attachments/assets/a82be13c-7bc6-4192-9624-7aa397c54c60" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Operadores - Ejercicios de codificación.
+
+## Ejercicio 17
+
+Este ejercicio requiere crear una función para que retorne el numero dado sin su último dígito. Los escenarios esperados son los siguientes:
+
+<div align='center'>
+<img width="647" height="96" alt="image" src="https://github.com/user-attachments/assets/85f9ff69-7729-4532-ae33-6da07d040536" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+int truncado(int n) {
+  return n / 10;
+}
+```
+
+<div align='center'>
+  <img width="373" height="207" alt="image" src="https://github.com/user-attachments/assets/7f36aedf-d261-4dfb-9a1d-374b89f40ebb" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 18
+
+Este ejercicio requiere crear una función para que retorne el ultimo digito del numero dado. Los escenarios esperados son los siguientes:
+
+<div align='center'>
+<img width="638" height="90" alt="image" src="https://github.com/user-attachments/assets/dbf20d59-842e-487a-9543-18593c292fac" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+int ultimoDigito(int n) {
+  return n % 10;
+}
+```
+
+<div align='center'>
+  <img width="371" height="322" alt="image" src="https://github.com/user-attachments/assets/c2140f75-c3c7-480a-9400-06c63e5fe58b" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 19
+
+Este ejercicio requiere crear una función que dado un número entero, devuelva verdadero si el número esta dentro del rango de 0 a 9 y falso de lo contrario. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="649" height="134" alt="image" src="https://github.com/user-attachments/assets/eefc1ec7-420e-41c6-a3b9-243838030bc7" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+boolean unicoDigito(int n) {
+ return (n >= 0) && (n < 10);
+}
+```
+
+<div align='center'>
+  <img width="377" height="311" alt="image" src="https://github.com/user-attachments/assets/c088027a-9ce4-4edb-ba1f-ecabbab3ac94" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 20
+
+Este ejercicio requiere crear una función que dado un número entero, devuelva el string "no-negativo" si es positivo o cero, o "negativo" si es negativo.
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+String signo(int n) {
+ return (n >= 0) ? "no-negativo":"negativo";
+}
+```
+
+<div align='center'>
+  <img width="514" height="215" alt="image" src="https://github.com/user-attachments/assets/32e432ae-cdec-4b4f-92f1-ea6db7097d34" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 21
+
+Este ejercicio requiere crear una función que verifique si un número es par. 
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+boolean esPar(int n) {
+ return (n % 2) == 0;
+}
+```
+
+<div align='center'>
+  <img width="321" height="221" alt="image" src="https://github.com/user-attachments/assets/d46d3668-072f-4b03-9052-c54cabe16d13" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 22
+
+Este ejercicio requiere crear una función que verifique si un número es impar.
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+boolean esImpar(int n) {
+ return (n % 2) != 0;
+}
+```
+
+<div align='center'>
+<img width="347" height="320" alt="image" src="https://github.com/user-attachments/assets/8a51305d-c711-42c3-b0e1-4c72bc249573" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 22
+
+Este ejercicio requiere crear una función que tome dos números enteros y devuelva el resultado de a2 - b2. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="668" height="60" alt="image" src="https://github.com/user-attachments/assets/545993af-9ebf-4e95-9f27-82f59969ad97" />
+<img width="649" height="50" alt="image" src="https://github.com/user-attachments/assets/d8b58067-a185-4f69-add7-b408e746ef8a" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+int diferenciaDeCuadrados(int a, int b) {
+ return (a * a) - (b * b);
+}
+```
+
+<div align='center'>
+<img width="457" height="205" alt="image" src="https://github.com/user-attachments/assets/5005aa76-9124-467d-9b4a-0873eca0a7eb" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 23
+
+Este ejercicio requiere crear una función que tome dos doubles que representan la medida de dos ángulos de un triangulo y devuelva la medida del tercero. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="650" height="82" alt="image" src="https://github.com/user-attachments/assets/a000b129-eb8e-4ffe-9a9b-1622da1c2ddf" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+double tercerAngulo(double a, double b) {
+ return 180 - (a + b);
+}
+```
+
+<div align='center'>
+<img width="468" height="260" alt="image" src="https://github.com/user-attachments/assets/c623fce2-a43d-43be-b917-e9b27b9aa82c" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 24
+
+Este ejercicio requiere crear una función que tome un entero y devuelva un predicado que sea verdadero si es un múltiplo positivo de siete menor que 1000. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="642" height="100" alt="image" src="https://github.com/user-attachments/assets/3bcd8bb5-3d6e-4178-a0ed-1c61c986d884" />
+
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+boolean validarMultiploDe7(int n) {
+ return (n % 7) == 0 && (n > 0) && n < 1000);
+}
+```
+
+<div align='center'>
+
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
