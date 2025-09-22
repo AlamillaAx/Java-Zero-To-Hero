@@ -19,9 +19,25 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 * ### Ejercicios de corrección de código
   * [Ir a Ejercicio 12](#ejercicio-12)
   * [Ir a Ejercicio 13](#ejercicio-13)
- * ### Errores del compilador y de ejecución
-  *  
-
+* ### Operadores - Errores del compilador y de ejecución
+  * [Ir a Ejercicio 14](#ejercicio-14)
+  * [Ir a Ejercicio 15](#ejercicio-15)
+  * [Ir a Ejercicio 16](#ejercicio-16)
+* ### Operadores - Ejercicios de codificación
+  * [Ir a Ejercicio 17](#ejercicio-17)
+  * [Ir a Ejercicio 18](#ejercicio-18)
+  * [Ir a Ejercicio 19](#ejercicio-19)
+  * [Ir a Ejercicio 20](#ejercicio-20)
+  * [Ir a Ejercicio 21](#ejercicio-21)
+  * [Ir a Ejercicio 22](#ejercicio-22)
+  * [Ir a Ejercicio 23](#ejercicio-23)
+  * [Ir a Ejercicio 24](#ejercicio-24)
+  * [Ir a Ejercicio 25](#ejercicio-25)
+  * [Ir a Ejercicio 26](#ejercicio-26)
+  * [Ir a Ejercicio 27](#ejercicio-27)
+* ### Operadores - Ejercicios de corrección de código
+  * [Ir a Ejercicio 28](#ejercicio-28)
+  
 ## Errores del compilador y de ejecución
 
 El objetivo de estos ejercicios es visualizar los errores que arroja cada función al intentar crearlas, entender el error y corregirlo para que funcione correctamente. 
@@ -612,7 +628,7 @@ boolean esImpar(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 22
+## Ejercicio 23
 
 Este ejercicio requiere crear una función que tome dos números enteros y devuelva el resultado de a2 - b2. Los resultados esperados son los siguientes:
 
@@ -637,7 +653,7 @@ int diferenciaDeCuadrados(int a, int b) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 23
+## Ejercicio 24
 
 Este ejercicio requiere crear una función que tome dos doubles que representan la medida de dos ángulos de un triangulo y devuelva la medida del tercero. Los resultados esperados son los siguientes:
 
@@ -661,7 +677,7 @@ double tercerAngulo(double a, double b) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 24
+## Ejercicio 25
 
 Este ejercicio requiere crear una función que tome un entero y devuelva un predicado que sea verdadero si es un múltiplo positivo de siete menor que 1000. Los resultados esperados son los siguientes:
 
@@ -679,6 +695,98 @@ boolean validarMultiploDe7(int n) {
 ```
 
 <div align='center'>
+<img width="569" height="320" alt="image" src="https://github.com/user-attachments/assets/c07fa1f2-e369-4055-b0b4-cac9ac3627e4" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 26
+
+Este ejercicio requiere crear una función que tome tres números enteros: inicio, mitad y tamaño, debe retornar verdadero si "inicio" es mayor o igual a 0, "inicio" es menor que "mitad" y "mitad" es menor que tamaño. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="641" height="121" alt="image" src="https://github.com/user-attachments/assets/e21b97d6-9794-4de5-88a7-7274290e8ee0" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+boolean validar(int inicio, int mitad, int tamano) {
+ return (inicio >= 0) && (inicio < mitad) && (mitad < tamano);
+}
+```
+
+<div align='center'>
+<img width="678" height="369" alt="image" src="https://github.com/user-attachments/assets/3996d2e7-a5f6-44e9-bac2-5490734e995d" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 27
+
+Este ejercicio requiere crear una función para el cobro de un parqueadero que abre de 8:00 am a 6:00 pm, su sistema de cobro es el siguiente: el usuario debe pagar $10.0 por cada minuto de parqueo, pero tiene un cobro minimo de $100.0 y un maximo de $3000.0. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="646" height="122" alt="image" src="https://github.com/user-attachments/assets/0b4ba59a-3603-4bd6-b4b2-8c6ed5ef0877" />
+</div>
+
+Con el siguiente código se satisface lo requerido:
+
+```java
+double cobro(int minutos) {
+ double total = minutos * 10;
+ return  Math.min(3000.0,Math.max(100.0,total));
+}
+```
+
+<div align='center'>
+<img width="525" height="394" alt="image" src="https://github.com/user-attachments/assets/1d4d5312-894b-4b5e-9525-31d9241ba462" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Operadores - Ejercicios de corrección de código.
+
+## Ejercicio 28
+
+Este ejercicio requiere realizar la corrección de una función. Los resultados esperados son los siguientes:
+
+<div align='center'>
+<img width="648" height="144" alt="image" src="https://github.com/user-attachments/assets/450ca4e9-c7d3-4861-9d7c-25bdcca273dd" />
+</div>
+
+La función dada es la siguiente:
+
+```java
+int inicio(int resultados, int pagina) {
+ return (resultados * pagina) - 1;
+}
+```
+
+Y actualmente muestra resultados erroneos:
+
+<div align='center'>
+<img width="453" height="318" alt="image" src="https://github.com/user-attachments/assets/aeef08d0-a7a5-4167-9fb2-5614784fb3bf" />
+</div>
+
+Con base en los resultados esperados podemos deducir que la operación que se pretende es obtener es la siguiente: resultados * pagina / resultados. 
+
+```java
+int inicio(int resultados, int pagina) {
+ return (resultados * pagina) - resultados;
+}
+```
+
+Con esta modificación observamos que ahora se obtienen los resultados esperados:
+
+<div align='center'>
+<img width="555" height="313" alt="image" src="https://github.com/user-attachments/assets/fb62718f-957a-4e90-9dd1-f4dc6191870e" />
 
 </div>
 
