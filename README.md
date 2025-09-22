@@ -10,7 +10,7 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
   * [Ir a Ejercicio 4](#ejercicio-4)
   * [Ir a Ejercicio 5](#ejercicio-5)
   * [Ir a Ejercicio 6](#ejercicio-6)
-* #### Ejercicios de codificación
+* ### Ejercicios de codificación
   * [Ir a Ejercicio 7](#ejercicio-7---adivina-la-pelicula)
   * [Ir a Ejercicio 8](#ejercicio-8---llenado-de-caracteres)
   * [Ir a Ejercicio 9](#ejercicio-9)
