@@ -37,6 +37,10 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
   * [Ir a Ejercicio 27](#ejercicio-27)
 * ### Operadores - Ejercicios de corrección de código
   * [Ir a Ejercicio 28](#ejercicio-28)
+* ### Variables - Errores de compilador y de ejecución
+  * [Ir a Ejercicio 29](#ejercicio-29)
+* ### Variables - Ejercicios de códificación
+* ### Variables - Ejercicios de corrección de código
   
 ## Errores del compilador y de ejecución
 
@@ -788,6 +792,75 @@ Con esta modificación observamos que ahora se obtienen los resultados esperados
 <div align='center'>
 <img width="555" height="313" alt="image" src="https://github.com/user-attachments/assets/fb62718f-957a-4e90-9dd1-f4dc6191870e" />
 
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Variables - Errores de compilador y en tiempo de ejecución.
+
+## Ejercicio 29
+
+Este ejercicio requiere verificar y solucionar el error de compilación que nos da el código dado.
+
+La función dada es la siguiente:
+
+```java
+int duplicar(double a) {
+ var foo = a * 2;
+ return foo;
+}
+```
+
+El código genera el siguiente error al ser compilado, esto se debe a que en la operación que genera, var infiere que se trata de un double pero la función fue declarada para devolver un valor del tipo int. 
+
+<div align='center'>
+<img width="630" height="167" alt="image" src="https://github.com/user-attachments/assets/a3d66080-5e63-4f55-8a89-de06633b55c9" />
+</div>
+
+Realizando la correción del tipo de dato a retornar observamos que el error se corrigue y la función ahora es utilizable.
+
+```java
+double duplicar(double a) {
+ var foo = a * 2;
+ return foo;
+}
+```
+
+Con esta modificación observamos que ahora se obtienen los resultados esperados:
+
+<div align='center'>
+ <img width="367" height="170" alt="image" src="https://github.com/user-attachments/assets/b710ecb1-98b7-4a4e-9dee-5066e9dc87a1" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Variables - Ejercicios de codificación.
+
+## Ejercicio 30
+
+Este ejercicio requiere crear una función que calcule el modulo de una división. Los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="648" height="81" alt="image" src="https://github.com/user-attachments/assets/de88492c-9d14-4b21-b63a-448a83cb66c2" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+int mod(int p, int q) {
+ var d = p / q;
+ var r = d * q;
+ var m = p - r;
+ return m;
+}
+```
+
+<div align='center'>
+<img width="382" height="264" alt="image" src="https://github.com/user-attachments/assets/79c25255-d7c2-4f19-aea5-ccfb53384dda" />
 </div>
 
 <div align='right'>
