@@ -40,7 +40,17 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 * ### Variables - Errores de compilador y de ejecución
   * [Ir a Ejercicio 29](#ejercicio-29)
 * ### Variables - Ejercicios de códificación
+  * [Ir a Ejercicio 30](#ejercicio-30)
+  * [Ir a Ejercicio 31](#ejercicio-31)
+  * [Ir a Ejercicio 32](#ejercicio-32)
+  * [Ir a Ejercicio 33](#ejercicio-33)
+  * [Ir a Ejercicio 34](#ejercicio-34)
+  * [Ir a Ejercicio 35](#ejercicio-35)
+  * [Ir a Ejercicio 36](#ejercicio-36)
+  * [Ir a Ejercicio 39](#ejercicio-37)
+  * [Ir a Ejercicio 38](#ejercicio-38)
 * ### Variables - Ejercicios de corrección de código
+  * [Ir a Ejercicio 39](#ejercicio-39) 
   
 ## Errores del compilador y de ejecución
 
@@ -861,6 +871,300 @@ int mod(int p, int q) {
 
 <div align='center'>
 <img width="382" height="264" alt="image" src="https://github.com/user-attachments/assets/79c25255-d7c2-4f19-aea5-ccfb53384dda" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 31
+
+Este ejercicio requiere crear una función que calcule una diferencia de cuadrados entre dos números enteros dados. Los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="654" height="80" alt="image" src="https://github.com/user-attachments/assets/358155ac-09ee-40c2-9831-56ea6f99af8f" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+int diferenciaDeCuadrados(int a, int b) {
+ var cuadradoDeA = a * a;
+ var cuadradoDeB = b * b;
+ var diferenciaDeCuadrados = cuadradoDeA - cuadradoDeB;
+ return diferenciaDeCuadrados;
+}
+```
+
+<div align='center'>
+<img width="607" height="261" alt="image" src="https://github.com/user-attachments/assets/aefabd96-e87b-4638-a354-9eb8da03735e" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 32
+
+Este ejercicio requiere crear una función que calcule la distancia entre dos puntos. Cada punto está representado por 2 double; la función toma 4 parámetros: x1, y1, x2 e y2; los dos primeros son las coordenadas x e y del primer punto y los dos últimos son las coordenadas x e y del segundo punto. La formula de la distancia y los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="652" height="128" alt="image" src="https://github.com/user-attachments/assets/58193b4d-aa32-4df5-94e8-e03e85b3ab48" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double distanciaEntrePuntos(double x1, double y1, double x2, double y2) {
+ var diferenciaX = x2 - x1;
+ var diferenciaY = y2 - y1;
+ var calculoXAlCuadrado = diferenciaX * diferenciaX;
+ var calculoYAlCuadrado = diferenciaY * diferenciaY;
+ var raizDeDiferencias = Math.sqrt(calculoXAlCuadrado + calculoYAlCuadrado);
+ return raizDeDiferencias;
+}
+```
+
+<div align='center'>
+<img width="823" height="297" alt="image" src="https://github.com/user-attachments/assets/54b44c4b-2296-49bb-a028-b9d95a48984d" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 33
+
+Este ejercicio requiere crear una función que realice una conversión entre grados Fahrenheit a grados Celsius, el número recibido deberá ser un double. La fórmula a utilizar es la siguiente C= (F-32) * 5/9 y los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="658" height="82" alt="image" src="https://github.com/user-attachments/assets/cf0a425f-4d91-4cb6-9042-6403b4859ddb" />
+
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double conversionFtoC(double t1) {
+ var diferenciaEntreCeros = (t1 - 32);
+ var diferenciaEntreFactor = (diferenciaEntreCeros / 1.8);
+ return diferenciaEntreFactor;
+}
+```
+
+<div align='center'>
+<img width="660" height="251" alt="image" src="https://github.com/user-attachments/assets/3c1445d7-29ad-4f2f-a421-e7104621c057" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 34
+
+Este ejercicio requiere crear una función que calcule la gravedad superficial de un planeta dada la masa y el radio de este. La fórmula a utilizar y los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="460" height="128" alt="image" src="https://github.com/user-attachments/assets/95df27d6-4784-4fec-87ad-31600f6963cc" />
+<img width="646" height="64" alt="image" src="https://github.com/user-attachments/assets/2cf927ac-5080-4319-ba17-c4f1a3ac27c9" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double gravedadSuperficial(double masa, double radio) {
+ var gravedadUniPorMasa = 6.67430e-11 * masa;
+ var radioAlCuadrado = radio * radio;
+ var gravedadSuperficialR = gravedadUniPorMasa / radioAlCuadrado;
+ return gravedadSuperficialR;
+}
+```
+
+<div align='center'>
+<img width="704" height="260" alt="image" src="https://github.com/user-attachments/assets/131bf932-fcc9-4bcc-9103-4d3658a26f36" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 35
+
+Este ejercicio requiere crear una función que calcule la gravedad superficial de la tierra teniendo como literales la masa de la tierra y su radio. Los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="650" height="48" alt="image" src="https://github.com/user-attachments/assets/d89574d9-035f-4c97-812b-de2a186d8491" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double gravedadSuperficialDeLaTierra() {
+ var masaDeLaTierra = 5.972e24;
+ var radioDeLaTierra = 6.378e6;
+ var constanteDeGravitacionUniversal = 6.67430e-11;
+ var gravedadUniPorMasa = constanteDeGravitacionUniversal * masaDeLaTierra;
+ var radioAlCuadrado = radioDeLaTierra * radioDeLaTierra;
+ var gravedadSuperficial = gravedadUniPorMasa / radioAlCuadrado;
+ return gravedadSuperficial;
+}
+```
+
+<div align='center'>
+<img width="809" height="193" alt="image" src="https://github.com/user-attachments/assets/9b6f3318-499e-4bd0-b538-a88b8aec92d9" />
+<img width="390" height="52" alt="image" src="https://github.com/user-attachments/assets/06dc1ab2-93ad-457e-afc6-ee815929ea32" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 36
+
+Este ejercicio requiere crear una función que tome el peso de una persona en la tierra, y devuelva el peso de esa persona en Marte. La formula y los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="680" height="194" alt="image" src="https://github.com/user-attachments/assets/d2fa2274-4041-4991-84d3-952659d47795" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double pesoEnMarte(double pesoTierra) {
+ var masaDeLaTierra = 5.972e24;
+ var radioDeLaTierra = 6.378e6;
+ var masaDeMarte = 6.421e23;
+ var radioDeMarte = 3.3972e6;
+ var constanteDeGravitacionUniversal = 6.67430e-11;
+ var gravedadSuperficialTierra = (constanteDeGravitacionUniversal * masaDeLaTierra) / (radioDeLaTierra * radioDeLaTierra);
+ var gravedadSuperficialMarte = (constanteDeGravitacionUniversal * masaDeMarte) / (radioDeMarte * radioDeMarte);
+ var pesoEnMarteR = (gravedadSuperficialMarte / gravedadSuperficialTierra) * pesoTierra;
+ return pesoEnMarteR;
+}
+```
+
+<div align='center'>
+<img width="1099" height="403" alt="image" src="https://github.com/user-attachments/assets/a135222b-601f-4fab-870d-848518d38b4c" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 37
+
+Este ejercicio requiere crear una función que dadas las longitudes de los tres lados, verifique si se puede formar un triángulo. Los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="643" height="61" alt="image" src="https://github.com/user-attachments/assets/e81c24a4-355b-4057-8eaf-2a823dd46c24" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+boolean esTriangulo(double ladoUno, double ladoDos, double ladoTres) {
+ var ladoMasLargoUnoDos = Math.max(ladoUno,ladoDos);
+ var primerLadoMenor = Math.min(ladoUno,ladoDos);
+ var ladoMasLargo = Math.max(ladoMasLargoUnoDos,ladoTres);
+ var segundoLadoMenor = Math.min(ladoMasLargoUnoDos,ladoTres);
+ var sumaDeLadosMenores = primerLadoMenor + segundoLadoMenor;
+ var esPosible = ladoMasLargo < sumaDeLadosMenores;
+ return esPosible;
+}
+```
+
+<div align='center'>
+<img width="737" height="313" alt="image" src="https://github.com/user-attachments/assets/9e99e344-14b6-4a1e-a049-55a8d9bafbf9" />
+</div>
+
+Otra posible solución simplificando las comparaciones anteriores y con otra logica para determinar la suma de los lados menores:
+
+```java
+boolean esTriangulo(double ladoUno, double ladoDos, double ladoTres) {
+ var ladoMasLargo = Math.max(ladoUno, Math.max(ladoDos,ladoTres));
+ var sumaDeLados = ladoUno + ladoDos + ladoTres;
+ var esPosible = ladoMasLargo < (sumaDeLados - ladoMasLargo);
+ return esPosible;
+}
+```
+
+En esta solución se afronta de forma diferente el problema, comparando todos los lados anidando un max dentro de otro para evitar escribir una linea más, adicional se determina la suma de los dos lados menores sumando los tres lados y luego restando la cantidad del lado mayor. Es más corto el código pero quizás llegue a ser un poco menos entendible para principiantes. De igual forma si no se considera necesario se puede omitir el paso de crear la variable esPosible, dejando en el return solamente la evaluación: ladoMasLargo < (sumaDeLados - ladoMasLargo).
+
+<div align='center'>
+<img width="763" height="261" alt="image" src="https://github.com/user-attachments/assets/10815a38-84bd-41ef-a5b1-71d4fcbd7132" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 38
+
+Este ejercicio requiere crear una función que reciba tres medidas: a, b y gamma, para luego por medio de la ley de cosenos para los triángulos determinar el tamaño del lado c. La formula y los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="486" height="87" alt="image" src="https://github.com/user-attachments/assets/f77a5a7d-0d84-4077-bec5-4378d400b2a8" />
+<img width="674" height="77" alt="image" src="https://github.com/user-attachments/assets/21a69b85-767b-44fc-a940-bdfcb4c73880" />
+</div>
+
+Con la siguiente función se satisface lo requerido:
+
+```java
+double leyCosenos(double a, double b, double gamma) {
+ var cuadradoDeA = Math.pow(a,2);
+ var cuadradoDeB = Math.pow(b,2);
+ var cosDeGamma = Math.cos(Math.toRadians(gamma));
+ var tamanoDeC = Math.sqrt(cuadradoDeA + cuadradoDeB - 2 * a * b * cosDeGamma);
+ return tamanoDeC;
+}
+```
+Un punto muy importante a considerar es que la función Math.cos espera recibir el valor en radianes, por eso se tuvo que utilizar Math.toRadians para convertir el valor en grados a radianes.
+
+<div align='center'>
+<img width="854" height="283" alt="image" src="https://github.com/user-attachments/assets/280c38a9-83ac-4778-9e31-355bf35d7fd8" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Variables - Ejercicios de corrección de código.
+
+## Ejercicio 39
+
+Este ejercicio requiere corregir la función dada, ya que, esta arrojando resultados incorrectos. Los valores esperados de salida con los siguientes:
+
+<div align='center'>
+<img width="669" height="78" alt="image" src="https://github.com/user-attachments/assets/613df2ee-c02c-433a-9563-6a3e97703829" />
+</div>
+
+La función dada es la siguiente:
+
+```java
+double promedio(int edadMenor, int edadMayor) {
+ var sumaEdades = edadMenor + edadMayor;
+ var promedio = sumaEdades / 2;
+ return promedio;
+}
+```
+
+<div align='center'>
+<img width="544" height="244" alt="image" src="https://github.com/user-attachments/assets/c7ba614f-d596-4b8e-b9d4-68b3c8b23116" />
+
+</div>
+
+Como podemos ver a continuación, el valor que regresa para el primer resultado es 13.0 en lugar de 13.5 y 2.0 para el segundo el lugar de 2.5 como se espera. Esto ocurre debido que como se estan utilizando valores enteros en los parametros de entrada las variables declaradas a continuación para los calculos suponen que también deben ser enteras, aunque para el retorno convierte el valor en double debido a que este tipo de valor que esperamos, para los calculos ya los considero como enteros y omitio considerar la parte decimal. El arreglo para este código es considerar los parametros de entrada también como double y declarar las entradas debidamente. 
+
+```java
+double promedio(double edadMenor, double edadMayor) {
+ var sumaEdades = edadMenor + edadMayor;
+ var promedio = sumaEdades / 2;
+ return promedio;
+}
+```
+
+<div align='center'>
+<img width="595" height="247" alt="image" src="https://github.com/user-attachments/assets/279f231f-7d83-4453-979a-9d46bdadadb1" />
 </div>
 
 <div align='right'>
