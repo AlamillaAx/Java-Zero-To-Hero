@@ -3,20 +3,20 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 
 ## Menu de ejercicios 
 
-* #### Errores del compilador y de ejecución
+* #### Fundamentos - Errores del compilador y de ejecución
   * [Ir a Ejercicio 1.1](#ejercicio-11)
   * [Ir a Ejercicio 1.2](#ejercicio-12)
   * [Ir a Ejercicio 1.3](#ejercicio-13)
   * [Ir a Ejercicio 1.4](#ejercicio-14)
   * [Ir a Ejercicio 1.5](#ejercicio-15)
   * [Ir a Ejercicio 1.6](#ejercicio-16)
-* ### Ejercicios de codificación
+* ### Fundamentos - Ejercicios de codificación
   * [Ir a Ejercicio 1.7](#ejercicio-17---adivina-la-pelicula)
   * [Ir a Ejercicio 1.8](#ejercicio-18---llenado-de-caracteres)
   * [Ir a Ejercicio 1.9](#ejercicio-19)
   * [Ir a Ejercicio 1.10](#ejercicio-110)
   * [Ir a Ejercicio 1.11](#ejercicio-111)
-* ### Ejercicios de corrección de código
+* ### Fundamentos - Ejercicios de corrección de código
   * [Ir a Ejercicio 1.12](#ejercicio-112)
   * [Ir a Ejercicio 1.13](#ejercicio-113)
 * ### Operadores - Errores del compilador y de ejecución
@@ -50,7 +50,8 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
   * [Ir a Ejercicio 3.9](#ejercicio-39)
   * [Ir a Ejercicio 3.10](#ejercicio-310)
 * ### Variables - Ejercicios de corrección de código
-  * [Ir a Ejercicio 3.11](#ejercicio-311) 
+  * [Ir a Ejercicio 3.11](#ejercicio-311)
+* ### Strings - 
   
 ## Errores del compilador y de ejecución
 
