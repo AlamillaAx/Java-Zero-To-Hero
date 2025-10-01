@@ -51,7 +51,9 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
   * [Ir a Ejercicio 3.10](#ejercicio-310)
 * ### Variables - Ejercicios de corrección de código
   * [Ir a Ejercicio 3.11](#ejercicio-311)
-* ### Strings - 
+* ### Strings - Errores del compilador y del tiempo de ejecución.
+* ### Strings - Ejercicios de códificación.
+* ### Strings - Ejercicios de corrección de código.
   
 ## Errores del compilador y de ejecución
 
@@ -1166,6 +1168,104 @@ double promedio(double edadMenor, double edadMayor) {
 
 <div align='center'>
 <img width="595" height="247" alt="image" src="https://github.com/user-attachments/assets/279f231f-7d83-4453-979a-9d46bdadadb1" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Strings - Errores de compilador y del tiempo de ejecución.
+
+## Ejercicio 4.1
+
+Este ejercicio requiere corregir visualizar el error que ocurre al compilar y dar una solución al mismo. El código proporcionado es el siguiente:
+
+```java
+boolean empiezaConMinuscula(String s) {
+ var primerCaracter = String.charAt(s,0);
+ return Character.isLowerCase(primerCaracter);
+}
+```
+El error obtenido es el siguiente:
+
+<div align='center'>
+<img width="1004" height="365" alt="image" src="https://github.com/user-attachments/assets/68f74499-c0da-4b3b-8a41-31cb7005003d" />
+</div>
+
+Como podemos observar la función tiene dos errores pero van enfocados al mismo problema. Se esta tratando de aplicar la función .charAt() con dos parametros dentro cuando solo debería llevar uno, el otro error es porque se intenta aplicar la función a String cuando debería aplicarse a s.
+
+```java
+boolean empiezaConMinuscula(String s) {
+ var primerCaracter = s.charAt(0);
+ return Character.isLowerCase(primerCaracter);
+}
+```
+
+<div align='center'>
+<img width="595" height="124" alt="image" src="https://github.com/user-attachments/assets/bdcf9d64-a0af-4c32-bdf5-e6ff77b66f41" />
+ <img width="346" height="67" alt="image" src="https://github.com/user-attachments/assets/c7bb6db7-3ebd-4e32-b2f2-dddbfe79f775" />
+</div>
+
+## Ejercicio 4.2
+
+Este ejercicio requiere corregir visualizar el error que ocurre al compilar y dar una solución al mismo. El código proporcionado es el siguiente:
+
+```java
+String pluralizar(int conteo, String s) {
+ return (conteo < 2) ? s : s.format("%d %ss", conteo);
+}
+```
+El error obtenido es el siguiente:
+
+<div align='center'>
+<img width="748" height="299" alt="image" src="https://github.com/user-attachments/assets/27a809e4-b3db-47c1-ab00-f1d4eabbaf3a" />
+
+</div>
+
+Aquí no hay error al compilar pero notamos que al intenter pluralizar por más de uno a la palabra tenemos un error que nos indica que hace falta el argumento del formateador "%s", que sería nuestro parametro s. Al agregar esto al código podremos utilizarlo sin ningún inconveniente.
+
+```java
+String pluralizar(int conteo, String s) {
+ return (conteo < 2) ? s : s.format("%d %ss", conteo);
+}
+```
+
+<div align='center'>
+<img width="614" height="154" alt="image" src="https://github.com/user-attachments/assets/17026441-de41-414e-9755-febbade2dc91" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.3
+
+Este ejercicio requiere corregir visualizar el error que ocurre al compilar y dar una solución al mismo. El código proporcionado es el siguiente:
+
+```java
+boolean esVocal(char letra) {
+ var letraMinuscula = Character.toLowerCase(letra);
+ return 'aeiou'.contains(Character.toString(letraMinuscula));
+}
+```
+El error obtenido es el siguiente:
+
+<div align='center'>
+<img width="741" height="384" alt="image" src="https://github.com/user-attachments/assets/a73a1979-1ee1-4087-8f21-f6cdfb1f8f0f" />
+</div>
+
+Aquí el error al intentar compilar es debido al uso de las comillas simples en la literal "aeiou" que es tipo String, las comillas simples se utilizan para literales tipo char, o sea de un solo caracter. Corrigiendo esto la función funciona sin inconvenientes:
+
+```java
+boolean esVocal(char letra) {
+ var letraMinuscula = Character.toLowerCase(letra);
+ return "aeiou".contains(Character.toString(letraMinuscula));
+}
+
+```
+
+<div align='center'>
+<img width="717" height="336" alt="image" src="https://github.com/user-attachments/assets/3384cd69-0496-4ea3-90f3-d9611a5198f4" />
 </div>
 
 <div align='right'>
