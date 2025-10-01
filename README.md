@@ -4,7 +4,7 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 ## Menu de ejercicios 
 
 * #### Errores del compilador y de ejecución
-  * [Ir a Ejercicio 1.1](#ejercicio-1.1)
+  * [Ir a Ejercicio 1.1](#ejercicio-11)
   * [Ir a Ejercicio 1.2](#ejercicio-1.2)
   * [Ir a Ejercicio 1.3](#ejercicio-1.3)
   * [Ir a Ejercicio 1.4](#ejercicio-1.4)
