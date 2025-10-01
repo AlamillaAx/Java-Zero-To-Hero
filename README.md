@@ -4,59 +4,59 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 ## Menu de ejercicios 
 
 * #### Errores del compilador y de ejecución
-  * [Ir a Ejercicio 1](#ejercicio-1)
-  * [Ir a Ejercicio 2](#ejercicio-2)
-  * [Ir a Ejercicio 3](#ejercicio-3)
-  * [Ir a Ejercicio 4](#ejercicio-4)
-  * [Ir a Ejercicio 5](#ejercicio-5)
-  * [Ir a Ejercicio 6](#ejercicio-6)
+  * [Ir a Ejercicio 1.1](#ejercicio-1.1)
+  * [Ir a Ejercicio 1.2](#ejercicio-1.2)
+  * [Ir a Ejercicio 1.3](#ejercicio-1.3)
+  * [Ir a Ejercicio 1.4](#ejercicio-1.4)
+  * [Ir a Ejercicio 1.5](#ejercicio-1.5)
+  * [Ir a Ejercicio 1.6](#ejercicio-1.6)
 * ### Ejercicios de codificación
-  * [Ir a Ejercicio 7](#ejercicio-7---adivina-la-pelicula)
-  * [Ir a Ejercicio 8](#ejercicio-8---llenado-de-caracteres)
-  * [Ir a Ejercicio 9](#ejercicio-9)
-  * [Ir a Ejercicio 10](#ejercicio-10)
-  * [Ir a Ejercicio 11](#ejercicio-11)
+  * [Ir a Ejercicio 1.7](#ejercicio-1.7---adivina-la-pelicula)
+  * [Ir a Ejercicio 1.8](#ejercicio-1.8---llenado-de-caracteres)
+  * [Ir a Ejercicio 1.9](#ejercicio-1.9)
+  * [Ir a Ejercicio 1.10](#ejercicio-1.10)
+  * [Ir a Ejercicio 1.11](#ejercicio-1.11)
 * ### Ejercicios de corrección de código
-  * [Ir a Ejercicio 12](#ejercicio-12)
-  * [Ir a Ejercicio 13](#ejercicio-13)
+  * [Ir a Ejercicio 1.12](#ejercicio-1.12)
+  * [Ir a Ejercicio 1.13](#ejercicio-1.13)
 * ### Operadores - Errores del compilador y de ejecución
-  * [Ir a Ejercicio 14](#ejercicio-14)
-  * [Ir a Ejercicio 15](#ejercicio-15)
-  * [Ir a Ejercicio 16](#ejercicio-16)
+  * [Ir a Ejercicio 2.1](#ejercicio-2.1)
+  * [Ir a Ejercicio 2.2](#ejercicio-2.2)
+  * [Ir a Ejercicio 2.3](#ejercicio-2.3)
 * ### Operadores - Ejercicios de codificación
-  * [Ir a Ejercicio 17](#ejercicio-17)
-  * [Ir a Ejercicio 18](#ejercicio-18)
-  * [Ir a Ejercicio 19](#ejercicio-19)
-  * [Ir a Ejercicio 20](#ejercicio-20)
-  * [Ir a Ejercicio 21](#ejercicio-21)
-  * [Ir a Ejercicio 22](#ejercicio-22)
-  * [Ir a Ejercicio 23](#ejercicio-23)
-  * [Ir a Ejercicio 24](#ejercicio-24)
-  * [Ir a Ejercicio 25](#ejercicio-25)
-  * [Ir a Ejercicio 26](#ejercicio-26)
-  * [Ir a Ejercicio 27](#ejercicio-27)
+  * [Ir a Ejercicio 2.4](#ejercicio-2.4)
+  * [Ir a Ejercicio 2.5](#ejercicio-2.5)
+  * [Ir a Ejercicio 2.6](#ejercicio-2.6)
+  * [Ir a Ejercicio 2.7](#ejercicio-2.7)
+  * [Ir a Ejercicio 2.8](#ejercicio-2.8)
+  * [Ir a Ejercicio 2.9](#ejercicio-2.9)
+  * [Ir a Ejercicio 2.10](#ejercicio-2.10)
+  * [Ir a Ejercicio 2.11](#ejercicio-2.11)
+  * [Ir a Ejercicio 2.12](#ejercicio-2.12)
+  * [Ir a Ejercicio 2.13](#ejercicio-2.13)
+  * [Ir a Ejercicio 2.14](#ejercicio-2.14)
 * ### Operadores - Ejercicios de corrección de código
-  * [Ir a Ejercicio 28](#ejercicio-28)
+  * [Ir a Ejercicio 2.15](#ejercicio-2.15)
 * ### Variables - Errores de compilador y de ejecución
-  * [Ir a Ejercicio 29](#ejercicio-29)
+  * [Ir a Ejercicio 3.1](#ejercicio-3.1)
 * ### Variables - Ejercicios de códificación
-  * [Ir a Ejercicio 30](#ejercicio-30)
-  * [Ir a Ejercicio 31](#ejercicio-31)
-  * [Ir a Ejercicio 32](#ejercicio-32)
-  * [Ir a Ejercicio 33](#ejercicio-33)
-  * [Ir a Ejercicio 34](#ejercicio-34)
-  * [Ir a Ejercicio 35](#ejercicio-35)
-  * [Ir a Ejercicio 36](#ejercicio-36)
-  * [Ir a Ejercicio 39](#ejercicio-37)
-  * [Ir a Ejercicio 38](#ejercicio-38)
+  * [Ir a Ejercicio 3.2](#ejercicio-3.2)
+  * [Ir a Ejercicio 3.3](#ejercicio-3.3)
+  * [Ir a Ejercicio 3.4](#ejercicio-3.4)
+  * [Ir a Ejercicio 3.5](#ejercicio-3.5)
+  * [Ir a Ejercicio 3.6](#ejercicio-3.6)
+  * [Ir a Ejercicio 3.7](#ejercicio-3.7)
+  * [Ir a Ejercicio 3.8](#ejercicio-3.8)
+  * [Ir a Ejercicio 3.9](#ejercicio-3.9)
+  * [Ir a Ejercicio 3.10](#ejercicio-3.10)
 * ### Variables - Ejercicios de corrección de código
-  * [Ir a Ejercicio 39](#ejercicio-39) 
+  * [Ir a Ejercicio 3.11](#ejercicio-3.11) 
   
 ## Errores del compilador y de ejecución
 
 El objetivo de estos ejercicios es visualizar los errores que arroja cada función al intentar crearlas, entender el error y corregirlo para que funcione correctamente. 
 
-## Ejercicio 1
+## Ejercicio 1.1
 
 ```java
 err1(){
@@ -81,10 +81,10 @@ String err1(){
 </div>
 
 <div align='right'>
-<a href="#menu-de-ejercicios">Regresar al menú</a>
+<a href="#menu-de-s">Regresar al menú</a>
 </div>
 
-## Ejercicio 2
+## Ejercicio 1.2
 
 ```java
 string err2(){
@@ -113,7 +113,7 @@ String err2(){
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 3
+## Ejercicio 1.3
 
 ```java
 String err3(who){
@@ -142,7 +142,7 @@ String err3(String who){
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 4
+## Ejercicio 1.4
 
 ```java
 String err4(){
@@ -171,7 +171,7 @@ String err4(){
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 5
+## Ejercicio 1.5
 
 ```java
 String err5(){
@@ -201,7 +201,7 @@ String err5(){
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 6
+## Ejercicio 1.6
 
 ```java
 String err6{
@@ -235,7 +235,7 @@ String err6(){
 
 El objetivo de estos ejercicios es desarrollar una función desde cero teniendo solamente las salidas deseadas para cada una.
 
-## Ejercicio 7 - Adivina la pelicula 
+## Ejercicio 1.7 - Adivina la pelicula 
 
 Este ejercicio requiere crear una función que reciba 3 emojis y los devuelva a la salida entre parentesis separados por una coma. El código para la función sería el siguiente:
 
@@ -255,7 +255,7 @@ Como se puede observar la función se crea correctamente, recibe los emojis en l
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 8 - Llenado de caracteres
+## Ejercicio 1.8 - Llenado de caracteres
 
 Este ejercicio requiere crear una función que sea capaz de insertar un caracter en la posición deseada dentro de una cadena de texto fija. El código para esta función sería el siguiente:
 
@@ -275,7 +275,7 @@ Como se puede observar a continuación la función se crea sin problemas y funci
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 9 
+## Ejercicio 1.9 
 
 Este ejercicio requiere crear una función que devuelva el separador "<<<>>>". A continuación, se muestra el código para esta función:
 
@@ -295,7 +295,7 @@ Como se muestra a continuación la función se crea correctamente y devuelve el 
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 10
+## Ejercicio 1.10
 
 Este ejercicio requiere crear una función que devuelva las vocales "aeiou". A continuación, se muestra el código para esta función:
 
@@ -311,7 +311,7 @@ Como se muestra a continuación la función se crea correctamente y devuelve el 
   <img width="279" height="138" alt="image" src="https://github.com/user-attachments/assets/3e49ac44-6a79-4018-b448-5c4d51c735b2" />
 </div>
 
-## Ejercicio 11
+## Ejercicio 1.11
 
 Este ejercicio requiere crear una función que adorne un string devolviendolo entre "<<< >>>". A continuación se muestra el código para esta función:
 
@@ -336,7 +336,7 @@ Como se muestra a continuación la función se crea correctamente y devuelve el 
 
 Para estos ejercicios se brinda un codigo que contiene un error, se debe verificar la función y corregir para que devuelva la salida esperada.
 
-## Ejercicio 12 
+## Ejercicio 1.12 
 
 Este ejercicio requiere que la función reciba una frase y devuelva el valor entre "<= =>". El código dado es el siguiente:
 
@@ -370,7 +370,7 @@ Una vez corregida podemos observar que la función ya no muestra ningún error a
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 13 
+## Ejercicio 1.13 
 
 Este ejercicio requiere que la función reciba dos parametros y los muestre concatenados a la salida. El código dado es el siguiente:
 
@@ -415,7 +415,7 @@ Con esta pequeña corrección se obtienen las salidas esperadas:
 
 En estos ejercicios observaremos los errores más comunes durante el uso de operadores así como la solución para cada uno de ellos. 
 
-## Ejercicio 14
+## Ejercicio 2.1
 
 Este ejercicio requiere crear una función para realizar una multiplicación.
 
@@ -446,7 +446,7 @@ int multiplicacion(int numero1, int numero2) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 15
+## Ejercicio 2.2
 
 Este ejercicio requiere crear una función para realizar una suma
 
@@ -477,7 +477,7 @@ int suma(int numero1, int numero2) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 16
+## Ejercicio 2.3
 
 Este ejercicio requiere crear una función para realizar la comparación de un valor con respecto a otros dados.
 
@@ -510,7 +510,7 @@ boolean positivoMenorDe20(int numero) {
 
 ## Operadores - Ejercicios de codificación.
 
-## Ejercicio 17
+## Ejercicio 2.4
 
 Este ejercicio requiere crear una función para que retorne el numero dado sin su último dígito. Los escenarios esperados son los siguientes:
 
@@ -534,7 +534,7 @@ int truncado(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 18
+## Ejercicio 2.5
 
 Este ejercicio requiere crear una función para que retorne el ultimo digito del numero dado. Los escenarios esperados son los siguientes:
 
@@ -558,7 +558,7 @@ int ultimoDigito(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 19
+## Ejercicio 2.6
 
 Este ejercicio requiere crear una función que dado un número entero, devuelva verdadero si el número esta dentro del rango de 0 a 9 y falso de lo contrario. Los resultados esperados son los siguientes:
 
@@ -582,7 +582,7 @@ boolean unicoDigito(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 20
+## Ejercicio 2.7
 
 Este ejercicio requiere crear una función que dado un número entero, devuelva el string "no-negativo" si es positivo o cero, o "negativo" si es negativo.
 
@@ -602,7 +602,7 @@ String signo(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 21
+## Ejercicio 2.8
 
 Este ejercicio requiere crear una función que verifique si un número es par. 
 
@@ -622,7 +622,7 @@ boolean esPar(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 22
+## Ejercicio 2.9
 
 Este ejercicio requiere crear una función que verifique si un número es impar.
 
@@ -642,7 +642,7 @@ boolean esImpar(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 23
+## Ejercicio 2.10
 
 Este ejercicio requiere crear una función que tome dos números enteros y devuelva el resultado de a2 - b2. Los resultados esperados son los siguientes:
 
@@ -667,7 +667,7 @@ int diferenciaDeCuadrados(int a, int b) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 24
+## Ejercicio 2.11
 
 Este ejercicio requiere crear una función que tome dos doubles que representan la medida de dos ángulos de un triangulo y devuelva la medida del tercero. Los resultados esperados son los siguientes:
 
@@ -691,7 +691,7 @@ double tercerAngulo(double a, double b) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 25
+## Ejercicio 2.12
 
 Este ejercicio requiere crear una función que tome un entero y devuelva un predicado que sea verdadero si es un múltiplo positivo de siete menor que 1000. Los resultados esperados son los siguientes:
 
@@ -716,7 +716,7 @@ boolean validarMultiploDe7(int n) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 26
+## Ejercicio 2.13
 
 Este ejercicio requiere crear una función que tome tres números enteros: inicio, mitad y tamaño, debe retornar verdadero si "inicio" es mayor o igual a 0, "inicio" es menor que "mitad" y "mitad" es menor que tamaño. Los resultados esperados son los siguientes:
 
@@ -740,7 +740,7 @@ boolean validar(int inicio, int mitad, int tamano) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 27
+## Ejercicio 2.14
 
 Este ejercicio requiere crear una función para el cobro de un parqueadero que abre de 8:00 am a 6:00 pm, su sistema de cobro es el siguiente: el usuario debe pagar $10.0 por cada minuto de parqueo, pero tiene un cobro minimo de $100.0 y un maximo de $3000.0. Los resultados esperados son los siguientes:
 
@@ -767,7 +767,7 @@ double cobro(int minutos) {
 
 ## Operadores - Ejercicios de corrección de código.
 
-## Ejercicio 28
+## Ejercicio 2.15
 
 Este ejercicio requiere realizar la corrección de una función. Los resultados esperados son los siguientes:
 
@@ -810,7 +810,7 @@ Con esta modificación observamos que ahora se obtienen los resultados esperados
 
 ## Variables - Errores de compilador y en tiempo de ejecución.
 
-## Ejercicio 29
+## Ejercicio 3.1
 
 Este ejercicio requiere verificar y solucionar el error de compilación que nos da el código dado.
 
@@ -850,7 +850,7 @@ Con esta modificación observamos que ahora se obtienen los resultados esperados
 
 ## Variables - Ejercicios de codificación.
 
-## Ejercicio 30
+## Ejercicio 3.2
 
 Este ejercicio requiere crear una función que calcule el modulo de una división. Los valores esperados de salida con los siguientes:
 
@@ -877,7 +877,7 @@ int mod(int p, int q) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 31
+## Ejercicio 3.3
 
 Este ejercicio requiere crear una función que calcule una diferencia de cuadrados entre dos números enteros dados. Los valores esperados de salida con los siguientes:
 
@@ -904,7 +904,7 @@ int diferenciaDeCuadrados(int a, int b) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 32
+## Ejercicio 3.4
 
 Este ejercicio requiere crear una función que calcule la distancia entre dos puntos. Cada punto está representado por 2 double; la función toma 4 parámetros: x1, y1, x2 e y2; los dos primeros son las coordenadas x e y del primer punto y los dos últimos son las coordenadas x e y del segundo punto. La formula de la distancia y los valores esperados de salida con los siguientes:
 
@@ -933,7 +933,7 @@ double distanciaEntrePuntos(double x1, double y1, double x2, double y2) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 33
+## Ejercicio 3.5
 
 Este ejercicio requiere crear una función que realice una conversión entre grados Fahrenheit a grados Celsius, el número recibido deberá ser un double. La fórmula a utilizar es la siguiente C= (F-32) * 5/9 y los valores esperados de salida con los siguientes:
 
@@ -960,7 +960,7 @@ double conversionFtoC(double t1) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 34
+## Ejercicio 3.6
 
 Este ejercicio requiere crear una función que calcule la gravedad superficial de un planeta dada la masa y el radio de este. La fórmula a utilizar y los valores esperados de salida con los siguientes:
 
@@ -988,7 +988,7 @@ double gravedadSuperficial(double masa, double radio) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 35
+## Ejercicio 3.7
 
 Este ejercicio requiere crear una función que calcule la gravedad superficial de la tierra teniendo como literales la masa de la tierra y su radio. Los valores esperados de salida con los siguientes:
 
@@ -1019,7 +1019,7 @@ double gravedadSuperficialDeLaTierra() {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 36
+## Ejercicio 3.8
 
 Este ejercicio requiere crear una función que tome el peso de una persona en la tierra, y devuelva el peso de esa persona en Marte. La formula y los valores esperados de salida con los siguientes:
 
@@ -1051,7 +1051,7 @@ double pesoEnMarte(double pesoTierra) {
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 37
+## Ejercicio 3.9
 
 Este ejercicio requiere crear una función que dadas las longitudes de los tres lados, verifique si se puede formar un triángulo. Los valores esperados de salida con los siguientes:
 
@@ -1098,7 +1098,7 @@ En esta solución se afronta de forma diferente el problema, comparando todos lo
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
-## Ejercicio 38
+## Ejercicio 3.10
 
 Este ejercicio requiere crear una función que reciba tres medidas: a, b y gamma, para luego por medio de la ley de cosenos para los triángulos determinar el tamaño del lado c. La formula y los valores esperados de salida con los siguientes:
 
@@ -1130,7 +1130,7 @@ Un punto muy importante a considerar es que la función Math.cos espera recibir 
 
 ## Variables - Ejercicios de corrección de código.
 
-## Ejercicio 39
+## Ejercicio 3.11
 
 Este ejercicio requiere corregir la función dada, ya que, esta arrojando resultados incorrectos. Los valores esperados de salida con los siguientes:
 
