@@ -1444,3 +1444,80 @@ String hexString(int rojo, int verde, int azul) {
 <div align='right'>
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
+
+## Ejercicio 4.12
+
+Este ejercicio requiere escribir la función correoElectronicoValido() que, dado un correo electrónico, devuelva verdadero si es un correo electrónico valido. A efectos del ejercicio un correo electrónico válido tiene estas características:
+* Tiene solo un @
+* Tiene solo un "." después del @
+* Hay al menos un carácter antes de @
+* Hay al menos un carácter entre @ y el último "."
+* Hay al menos un carácter después del último "."
+
+Para este ejercicio realice dos soluciones, una con todo lo que aprendimos durante la clase y sin repensar su optimización, con esto en cuenta me quedó una función con la siguiente:
+
+```java
+boolean correoElectronicoValido(String correo) {
+ var soloUnoA = correo.length() - correo.replace("@","").length();
+ var posUArroba = correo.lastIndexOf("@");
+ var despuesDeArroba = correo.substring(posUArroba+1);
+ var soloUnoP = despuesDeArroba.length() - despuesDeArroba.replace(".","").length();
+ var posUPunto = despuesDeArroba.lastIndexOf(".");
+ var entreArrobaPunto = (posUPunto == -1) ? despuesDeArroba.substring(0).length():despuesDeArroba.substring(0,posUPunto).length();
+ var despuesDelPunto = (posUPunto == -1) ? despuesDeArroba.substring(0).length():despuesDeArroba.substring(posUPunto+1).length();
+ var antesDelArroba = correo.substring(0,posUArroba).length();
+ return (soloUnoA == 1) && (soloUnoP == 1) && (antesDelArroba >= 1) && (entreArrobaPunto >= 1) && (despuesDelPunto >= 1);
+}
+```
+
+Después de ver el monstruo que hice, me puse a cuidar la optimización e investigar más de que funciones podría utilizar para utilizar menos líneas de código, pero sobre todo para que fuera más legible. Obteniendo la siguiente:
+
+```java
+boolean correoElectronicoValido(String correo) {
+    int Arroba = correo.indexOf('@');
+    int UltimoArroba = correo.lastIndexOf('@');
+    int punto = correo.indexOf('.', Arroba + 1);
+    int ultimoPunto = correo.lastIndexOf('.'); 
+    int len = correo.length();
+    return Arroba == UltimoArroba && Arroba > 0 && punto == ultimoPunto && punto > Arroba + 1 && punto < len - 1;  
+}
+```
+
+Ambas realizan la misma función correctamente como se muestra a continuación:
+
+<div align='center'>
+<img width="1087" height="518" alt="image" src="https://github.com/user-attachments/assets/75c34082-7dfa-4cdc-8fe6-c2b739497f02" />
+ <img width="1106" height="539" alt="image" src="https://github.com/user-attachments/assets/b326977c-6753-4908-b754-7564afa2ea1c" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.13
+
+Este ejercicio requiere escribir una función para elipsificar un String. Así es como debe funcionar:
+* Encuentra el primer espacio del título dado a partir de la longitud deseada.
+* Si existe, cortar el título en ese espacio.
+* Si el título resultante es más corto que el inicio, agregar el carácter de puntos suspensivos "..."
+
+Para este ejercicio intente realizar los puntos suspensivos desde un carácter Unicode como indicaba que debería realizarse en el ejercicio, pero no se interpretaba bien y mostraba un signo de interrogación, por ello preferí usar los tres puntos tal cual. 
+
+```java
+String elipsificar(String titulo, int delimitador) {
+ var lenTitulo = titulo.length();
+ var protectorDesborde = Math.max(0, Math.min(delimitador, lenTitulo));
+ var primerEspacio = titulo.indexOf(' ', protectorDesborde);
+ var corte = (primerEspacio == -1) ? lenTitulo:primerEspacio;
+ var nuevoTitulo = titulo.substring(0,corte);
+ return (corte < lenTitulo) ? String.format("%s...", nuevoTitulo):titulo;
+}
+```
+
+<div align='center'>
+<img width="796" height="416" alt="image" src="https://github.com/user-attachments/assets/a3a4bad8-4b12-45e0-a268-5dc4d0dbebff" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
