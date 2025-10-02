@@ -1271,3 +1271,176 @@ boolean esVocal(char letra) {
 <div align='right'>
 <a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
+
+## Strings - Ejercicios de codificación.
+
+## Ejercicio 4.4
+
+Este ejercicio requiere escribir una función que tome un String y lo devuelva con la primera letra en mayúsculas y las demás en minúsculas.
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+String titleCase(String texto) {
+ var primeraLetra = texto.substring(0,1);
+ var restoDelTexto = texto.substring(1);
+ return String.format("%S%s", primeraLetra, restoDelTexto.toLowerCase());
+}
+```
+<div align='center'>
+<img width="807" height="298" alt="image" src="https://github.com/user-attachments/assets/faf8241e-8938-404e-8d65-384940fab371" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.5
+
+Este ejercicio requiere escribir una función que tome un String y verifique si termina con la letra "S".
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+boolean terminaEnS(String texto) {
+ var ultimoCaracter = texto.charAt(texto.length() -1);
+ return (ultimoCaracter == 's') || (ultimoCaracter == 'S');
+}
+```
+<div align='center'>
+<img width="676" height="338" alt="image" src="https://github.com/user-attachments/assets/93ab67a2-8b21-4282-b643-1fa9b2ee05af" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.6
+
+Este ejercicio requiere escribir una función que verifique si un String de dos letras es un palíndromo. 
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+boolean esPalindrome(String texto) {
+ var limpio = texto.toLowerCase().replace(" ", "");
+ String invertido = new StringBuilder(limpio).reverse().toString();
+ return limpio.contentEquals(invertido);
+}
+```
+<div align='center'>
+<img width="762" height="354" alt="image" src="https://github.com/user-attachments/assets/5ed8e2ee-6ed7-44e0-a863-0b9dddc0964d" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.7
+
+Este ejercicio requiere escribir una función llamada exExterno() que tome un String que represente un enlace y devuelva verdadero si el enlace es externo. Para este ejercicio se debe tener en cuenta que los enlaces internos comienzas con "/" y los externos utilizan los protocolos "http" o "https".
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+boolean esExterno(String texto) {
+ var textoMinuscula = texto.toLowerCase();
+ return (textoMinuscula.startsWith("http")) || (textoMinuscula.startsWith("https"));
+}
+```
+<div align='center'>
+<img width="881" height="289" alt="image" src="https://github.com/user-attachments/assets/28a74a88-0c0e-4290-8adb-622b39384edb" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.8
+
+Este ejercicio requiere escribir una función llamada extension() que tome un String que represente una ruta a un archivo y devuelva la extensión del archivo, todo lo que viene después del último punto del archivo que es parte del nombre del archivo. Las rutas pueden ser relativas o absolutas. También es posible que un archivo no tenga extensiones. 
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+String extension(String ruta) {
+ var ubicacionPunto = ruta.lastIndexOf('.');
+ var extensionAr = ruta.substring(ubicacionPunto+1);
+ return (ubicacionPunto == -1) ? "":extensionAr;
+}
+```
+<div align='center'>
+<img width="591" height="358" alt="image" src="https://github.com/user-attachments/assets/5bebde1a-1dd5-4429-85fc-dab149d8903d" />
+</div>
+
+## Ejercicio 4.9
+
+Este ejercicio requiere escribir una función que tome una URL y devuelva el dominio, la parte que viene después del protocolo y termina en la siguiente barra o al final del string si no hay ninguna. Puede suponer que todos los parámetros comenzarán con "https://", que es el protocolo. 
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+String domain(String url) {
+ var fprotocolo = 8;
+ var fdominio = url.substring(fprotocolo).indexOf("/");
+ return (fdominio == -1) ? url.substring(fprotocolo):url.substring(fprotocolo,fdominio+fprotocolo);
+}
+```
+<div align='center'>
+<img width="1044" height="248" alt="image" src="https://github.com/user-attachments/assets/0db103d6-083b-4803-9ab8-4a870ae477af" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.10
+
+Este ejercicio requiere escribir una función que dado un cálculo para determinar el primer domingo de Pascua, nos retorne la fecha en el formato "YYYY/dd/mm". 
+
+Con la siguiente función podemos satisfacer el requerimiento:
+
+```java
+String domingoDePascua(int anno) {
+ var a = anno % 19;
+ var b = anno / 100;
+ var c = anno % 100;
+ var d = b / 4;
+ var e = b % 4;
+ var g = ((8 * b) + 13) / 25;
+ var h = ((19 * a) + b - d - g + 15) % 30;
+ var i = c / 4;
+ var k = c % 4;
+ var l = (32 + (2 * e) + (2 * i) - h - k) % 7;
+ var m = (a + (11 * h) + (19 * l)) / 433;
+ var n = (h + l - (7 * m) + 90) / 25;
+ var p = (h + l - (7 * m) + (33 * n) + 19) % 32;
+ return String.format("%d/%02d/%02d",anno,n,p);
+}
+```
+<div align='center'>
+<img width="698" height="511" alt="image" src="https://github.com/user-attachments/assets/f342af6a-8e46-45e6-ac87-edf7ef87c329" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
+
+## Ejercicio 4.11
+
+Este ejercicio requiere escribir la función hexString(int,int,int) que recibirá 3 números, en el rango de 0 a 255, y retorne un String con todos los caracteres en mayúsculas representando el número RGB como un String.
+
+Para este ejercicio utilizaremos el String.format que convierte en automatico entre distintas bases. Entonces la solución sería de la siguiente forma:
+
+```java
+String hexString(int rojo, int verde, int azul) {
+ return String.format("%02X%02X%02X", rojo, verde, azul);
+}
+```
+<div align='center'>
+<img width="648" height="269" alt="image" src="https://github.com/user-attachments/assets/2555aaeb-716f-4b6e-af90-30c19775a6e0" />
+</div>
+
+<div align='right'>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
+</div>
