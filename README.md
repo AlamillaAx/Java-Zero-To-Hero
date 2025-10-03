@@ -3,6 +3,8 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 
 ## Menu de ejercicios 
 
+Haz click en el icono del ejercicio al que deseas ir.
+
 * ### Fundamentos - Errores del compilador y de ejecución
   
 <div align='center'>
