@@ -53,17 +53,39 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 <div align='center'>
 <table>
   <tr>
-    <td><a href="#ejercicio-21"><img width="150" height="60" alt="Ejercicio 2 1" src="https://github.com/user-attachments/assets/29e2d04b-f39d-4525-ac22-bbd2cc0de974" alt="Ir a 2.1"></a></td>
-    <td><a href="#ejercicio-21"><img width="150" height="60" alt="Ejercicio 2 2" src="https://github.com/user-attachments/assets/ee6970f0-8391-4c7c-a09d-07b02fd8c26a" alt="Ir a 2.2"></a></td>
-    <td><a href="#ejercicio-21"><img width="150" height="60" alt="Ejercicio 2 3" src="https://github.com/user-attachments/assets/4ac0db42-b4e8-4693-9884-69c11667b2d8" alt="Ir a 2.3"></a></td>
+    <td><a href="#ejercicio-21"><img width="150" height="60" src="https://github.com/user-attachments/assets/29e2d04b-f39d-4525-ac22-bbd2cc0de974" alt="Ir a 2.1"></a></td>
+    <td><a href="#ejercicio-22"><img width="150" height="60" src="https://github.com/user-attachments/assets/ee6970f0-8391-4c7c-a09d-07b02fd8c26a" alt="Ir a 2.2"></a></td>
+    <td><a href="#ejercicio-23"><img width="150" height="60" src="https://github.com/user-attachments/assets/4ac0db42-b4e8-4693-9884-69c11667b2d8" alt="Ir a 2.3"></a></td>
   </tr>
 </table>
 </div>
 
-  * [Ir a Ejercicio 2.1](#ejercicio-21)
-  * [Ir a Ejercicio 2.2](#ejercicio-22)
-  * [Ir a Ejercicio 2.3](#ejercicio-23)
 * ### Operadores - Ejercicios de codificación
+
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-24"><img width="150" height="60" src="https://github.com/user-attachments/assets/3097b65c-62ef-48be-89e6-18d11d90818e" alt="Ir a 2.4"></a></td>
+    <td><a href="#ejercicio-25"><img width="150" height="60" src="https://github.com/user-attachments/assets/806c8f0c-a9c1-425f-9cd3-14aab2b46771" alt="Ir a 2.5"></a></td>
+    <td><a href="#ejercicio-26"><img width="150" height="60" src="https://github.com/user-attachments/assets/9934fb20-e5fe-458d-a9b0-d38b2a804f29" alt="Ir a 2.6"></a></td>
+    <td><a href="#ejercicio-27"><img width="150" height="60" src="https://github.com/user-attachments/assets/e1924758-f292-44d8-b3f9-888b3b0a6590" alt="Ir a 2.7"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-28"><img width="150" height="60" src="https://github.com/user-attachments/assets/df36c6ba-2996-4a20-a236-3c5df26b44ec" alt="Ir a 2.8"></a></td>
+    <td><a href="#ejercicio-29"><img width="150" height="60" src="https://github.com/user-attachments/assets/62aaa200-80a9-4074-b303-f28fe4ee2117" alt="Ir a 2.9"></a></td>
+    <td><a href="#ejercicio-210"><img width="150" height="60" src="https://github.com/user-attachments/assets/d39e1ed5-cf2e-46b0-abc0-c5dfb68d0e1b" alt="Ir a 2.10"></a></td>
+    <td><a href="#ejercicio-211"><img width="150" height="60" src="https://github.com/user-attachments/assets/026ec5b1-d744-40c4-b42a-90ad8c6568c2" alt="Ir a 2.11"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-212"><img width="150" height="60" src="https://github.com/user-attachments/assets/2ec0d0ab-ffe4-40ce-a998-8418e0e0ba44" alt="Ir a 2.12"></a></td>
+    <td><a href="#ejercicio-213"><img width="150" height="60" src="https://github.com/user-attachments/assets/4e99a7f3-7f6a-4fa9-8107-1cac63e20afe" alt="Ir a 2.13"></a></td>
+    <td><a href="#ejercicio-214"><img width="150" height="60" src="https://github.com/user-attachments/assets/fb2c4dff-5542-46cb-89d2-cbde507eeb65" alt="Ir a 2.14"></a></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+
   * [Ir a Ejercicio 2.4](#ejercicio-24)
   * [Ir a Ejercicio 2.5](#ejercicio-25)
   * [Ir a Ejercicio 2.6](#ejercicio-26)
