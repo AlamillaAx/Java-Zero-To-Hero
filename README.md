@@ -85,37 +85,91 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 </table>
 </div>
 
-
-  * [Ir a Ejercicio 2.4](#ejercicio-24)
-  * [Ir a Ejercicio 2.5](#ejercicio-25)
-  * [Ir a Ejercicio 2.6](#ejercicio-26)
-  * [Ir a Ejercicio 2.7](#ejercicio-27)
-  * [Ir a Ejercicio 2.8](#ejercicio-28)
-  * [Ir a Ejercicio 2.9](#ejercicio-29)
-  * [Ir a Ejercicio 2.10](#ejercicio-210)
-  * [Ir a Ejercicio 2.11](#ejercicio-211)
-  * [Ir a Ejercicio 2.12](#ejercicio-212)
-  * [Ir a Ejercicio 2.13](#ejercicio-213)
-  * [Ir a Ejercicio 2.14](#ejercicio-214)
 * ### Operadores - Ejercicios de corrección de código
-  * [Ir a Ejercicio 2.15](#ejercicio-215)
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-215"><img width="150" height="60" src="https://github.com/user-attachments/assets/bd30a441-81eb-4030-b770-c07e09024958" alt="Ir a 2.15"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Variables - Errores de compilador y de ejecución
-  * [Ir a Ejercicio 3.1](#ejercicio-31)
+
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-31"><img width="150" height="60" src="https://github.com/user-attachments/assets/7a17f94b-3b36-44ab-b578-3a1a82182067" alt="Ir a 3.1"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Variables - Ejercicios de códificación
-  * [Ir a Ejercicio 3.2](#ejercicio-32)
-  * [Ir a Ejercicio 3.3](#ejercicio-33)
-  * [Ir a Ejercicio 3.4](#ejercicio-34)
-  * [Ir a Ejercicio 3.5](#ejercicio-35)
-  * [Ir a Ejercicio 3.6](#ejercicio-36)
-  * [Ir a Ejercicio 3.7](#ejercicio-37)
-  * [Ir a Ejercicio 3.8](#ejercicio-38)
-  * [Ir a Ejercicio 3.9](#ejercicio-39)
-  * [Ir a Ejercicio 3.10](#ejercicio-310)
+
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-32"><img width="150" height="60" src="https://github.com/user-attachments/assets/93866d93-5867-477d-baf8-b76de438155e" alt="Ir a 3.2"></a></td>
+    <td><a href="#ejercicio-33"><img width="150" height="60" src="https://github.com/user-attachments/assets/5dd49001-a375-477e-9b43-f7ac50c2fca6" alt="Ir a 3.3"></a></td>
+    <td><a href="#ejercicio-34"><img width="150" height="60" src="https://github.com/user-attachments/assets/7605dfd5-f36f-4737-aa39-885b8d19c034" alt="Ir a 3.4"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-35"><img width="150" height="60" src="https://github.com/user-attachments/assets/9a3b2ff4-9ccf-488e-9490-d4f1e6c8343e" alt="Ir a 3.5"></a></td>
+    <td><a href="#ejercicio-36"><img width="150" height="60" src="https://github.com/user-attachments/assets/14f3c452-aa44-411a-bf51-6247eaddd557" alt="Ir a 3.6"></a></td>
+    <td><a href="#ejercicio-37"><img width="150" height="60" src="https://github.com/user-attachments/assets/2fd92c9a-8344-4e73-a286-d17b6f2901cc" alt="Ir a 3.7"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-38"><img width="150" height="60" src="https://github.com/user-attachments/assets/59ef7504-a474-4222-a2f9-7b126be0747a" alt="Ir a 3.8"></a></td>
+    <td><a href="#ejercicio-39"><img width="150" height="60" src="https://github.com/user-attachments/assets/8b36de3a-d901-44dd-b001-ddca0ce3ff0d" alt="Ir a 3.9"></a></td>
+    <td><a href="#ejercicio-310"><img width="150" height="60" src="https://github.com/user-attachments/assets/7597a295-dd15-4e89-8e32-7f0610a9ad6d" alt="Ir a 3.10"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Variables - Ejercicios de corrección de código
-  * [Ir a Ejercicio 3.11](#ejercicio-311)
+
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-311"><img width="150" height="60" src="https://github.com/user-attachments/assets/0084d048-2467-405b-a69e-0397882104ff" alt="Ir a 3.11"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Strings - Errores del compilador y del tiempo de ejecución.
+* 
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-41"><img width="150" height="60" src="https://github.com/user-attachments/assets/a4a7dd58-3b6a-41d8-b475-3921411ec857" alt="Ir a 4.1"></a></td>
+    <td><a href="#ejercicio-42"><img width="150" height="60" src="https://github.com/user-attachments/assets/032fae77-9787-4f09-87b7-5a76ff2a6d1e" alt="Ir a 4.2"></a></td>
+    <td><a href="#ejercicio-43"><img width="150" height="60" src="https://github.com/user-attachments/assets/1c6c4e98-edea-4ff3-be6e-ef76cd7d25f7" alt="Ir a 4.3"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Strings - Ejercicios de códificación.
-* ### Strings - Ejercicios de corrección de código.
+
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-44"><img width="150" height="60" src="https://github.com/user-attachments/assets/0c616fe9-5d59-4477-9d0c-d4ab4a99a471" alt="Ir a 4.4"></a></td>
+    <td><a href="#ejercicio-45"><img width="150" height="60" src="https://github.com/user-attachments/assets/46856c73-9390-4545-8691-2f48a4388f00" alt="Ir a 4.5"></a></td>
+    <td><a href="#ejercicio-46"><img width="150" height="60" src="https://github.com/user-attachments/assets/e6610bbf-fada-4c5a-b3e6-e5f0b03b353d" alt="Ir a 4.6"></a></td>
+    <td><a href="#ejercicio-47"><img width="150" height="60" src="https://github.com/user-attachments/assets/2cd82d5c-2833-43ab-94e5-0bca81de181d" alt="Ir a 4.7"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-48"><img width="150" height="60" src="https://github.com/user-attachments/assets/2afbc195-edb8-4077-a7d6-467d0bcf368a" alt="Ir a 4.8"></a></td>
+    <td><a href="#ejercicio-49"><img width="150" height="60" src="https://github.com/user-attachments/assets/fe169614-e119-40a9-8ab5-b56839f3c0e8" alt="Ir a 4.9"></a></td>
+    <td><a href="#ejercicio-410"><img width="150" height="60" src="https://github.com/user-attachments/assets/848284bc-8919-46a7-bb13-31dfe8e065b7" alt="Ir a 4.10"></a></td>
+    <td><a href="#ejercicio-411"><img width="150" height="60" src="https://github.com/user-attachments/assets/c2419bfc-67ff-4646-86e2-84ea15788bf1" alt="Ir a 4.11"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-412"><img width="150" height="60" src="https://github.com/user-attachments/assets/7f6248a4-26ea-455c-99aa-334fe36d4fe3" alt="Ir a 4.12"></a></td>
+    <td><a href="#ejercicio-413"><img width="150" height="60" src="https://github.com/user-attachments/assets/3099b5b2-0870-4125-9a31-4fb27762f6d3" alt="Ir a 4.13"></a></td>
+  </tr>
+</table>
+</div>
   
 ## Errores del compilador y de ejecución
 
