@@ -139,7 +139,7 @@ Haz click en el icono del ejercicio al que deseas ir.
 </div>
 
 * ### Strings - Errores del compilador y del tiempo de ejecución.
-* 
+
 <div align='center'>
 <table>
   <tr>
