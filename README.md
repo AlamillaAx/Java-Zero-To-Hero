@@ -4,29 +4,42 @@ Repositorio para notas y ejercicios del Boot Camp 'Zero to Hero' impartido por l
 ## Menu de ejercicios 
 
 * ### Fundamentos - Errores del compilador y de ejecución
+  
+<div align='center'>
+ 
+|  |  |  |
+|:--:|:--:|:--:|
+| [![Ir a Ejercicio 1.1](https://github.com/user-attachments/assets/313cbe84-70d0-4cc0-a551-b2cb24a3d686)](#ejercicio-11) | [![Ir a Ejercicio 1.2](https://github.com/user-attachments/assets/7a52c264-7ecd-45ad-9baa-bff6400e8151)](#ejercicio-12) | [![Ir a Ejercicio 1.3](https://github.com/user-attachments/assets/8ea907b6-b101-4668-b3d5-c55d618d42ba)](#ejercicio-13) 
+| [![Ir a Ejercicio 1.4](https://github.com/user-attachments/assets/81afea4c-eb4e-437d-85f1-0b19f73bab03)](#ejercicio-14) | [![Ir a Ejercicio 1.5](https://github.com/user-attachments/assets/eaaf13d8-d8d6-43c3-bc23-986b9a6cc65f)](#ejercicio-15) | [![Ir a Ejercicio 1.6](https://github.com/user-attachments/assets/2c11417f-67f7-4c37-8b49-8f0791336eba)](#ejercicio-16) 
 
-|  |  |  |  |
-|:--:|:--:|:--:|:--:|
-| [![Ir a Ejercicio 1.1](https://github.com/user-attachments/assets/313cbe84-70d0-4cc0-a551-b2cb24a3d686)](#ejercicio-11) | [![Ir a Ejercicio 1.2](https://github.com/user-attachments/assets/7a52c264-7ecd-45ad-9baa-bff6400e8151)](#ejercicio-12) | [![Ir a Ejercicio 1.3](https://github.com/user-attachments/assets/8ea907b6-b101-4668-b3d5-c55d618d42ba)](#ejercicio-13) | [![Ir a Ejercicio 1.4](https://github.com/user-attachments/assets/81afea4c-eb4e-437d-85f1-0b19f73bab03)](#ejercicio-14) |
-| [![Ir a Ejercicio 1.5](https://github.com/user-attachments/assets/eaaf13d8-d8d6-43c3-bc23-986b9a6cc65f)](#ejercicio-15) | [![Ir a Ejercicio 1.6](https://github.com/user-attachments/assets/2c11417f-67f7-4c37-8b49-8f0791336eba)](#ejercicio-16) | [![Ir a Ejercicio 1.7](https://github.com/user-attachments/assets/7ba2db94-8156-4e82-b8fb-e6b6681bebff)](#ejercicio-17) | [![Ir a Ejercicio 1.8](https://github.com/user-attachments/assets/f0abf1a6-9889-41b8-a7aa-b42d3ea8eb48)](#ejercicio-18)
-| [![Ir a Ejercicio 1.9](https://github.com/user-attachments/assets/6c443c63-572c-4a9d-bee7-2f5bf666fa6c)](#ejercicio-19) | [![Ir a Ejercicio 1.10](https://github.com/user-attachments/assets/828cb323-e5eb-4b66-88ef-1e1ea8830d9c)](#ejercicio-110) | [![Ir a Ejercicio 1.11](https://github.com/user-attachments/assets/4409c96b-b1b9-4b60-b13b-d8db1458cfbc)](#ejercicio-111) | [![Ir a Ejercicio 1.12](https://github.com/user-attachments/assets/c226e180-807b-47c3-81ea-4c771c5181cb)](#ejercicio-112) 
-| [![Ir a Ejercicio 1.13](https://github.com/user-attachments/assets/4f6d64b8-1c76-4f4b-9873-4f33fc1d0f2f)](#ejercicio-113)
+</div>
 
-  * [Ir a Ejercicio 1.1](#ejercicio-11)
-  * [Ir a Ejercicio 1.2](#ejercicio-12)
-  * [Ir a Ejercicio 1.3](#ejercicio-13)
-  * [Ir a Ejercicio 1.4](#ejercicio-14)
-  * [Ir a Ejercicio 1.5](#ejercicio-15)
-  * [Ir a Ejercicio 1.6](#ejercicio-16)
+<div align='center'>
+<table>
+  <tr>
+    <td><a href="#ejercicio-11"><img src="https://github.com/user-attachments/assets/313cbe84-70d0-4cc0-a551-b2cb24a3d686" alt="Ir a 1.1"></a></td>
+    <td><a href="#ejercicio-12"><img src="https://github.com/user-attachments/assets/7a52c264-7ecd-45ad-9baa-bff6400e8151" alt="Ir a 1.2"></a></td>
+    <td><a href="#ejercicio-13"><img src="https://github.com/user-attachments/assets/8ea907b6-b101-4668-b3d5-c55d618d42ba" alt="Ir a 1.3"></a></td>
+  </tr>
+  <tr>
+    <td><a href="#ejercicio-14"><img src="https://github.com/user-attachments/assets/81afea4c-eb4e-437d-85f1-0b19f73bab03" alt="Ir a 1.4"></a></td>
+    <td><a href="#ejercicio-15"><img src="https://github.com/user-attachments/assets/eaaf13d8-d8d6-43c3-bc23-986b9a6cc65f" alt="Ir a 1.5"></a></td>
+    <td><a href="#ejercicio-15"><img src="https://github.com/user-attachments/assets/2c11417f-67f7-4c37-8b49-8f0791336eba" alt="Ir a 1.5"></a></td>
+  </tr>
+</table>
+</div>
+
 * ### Fundamentos - Ejercicios de codificación
-  * [Ir a Ejercicio 1.7](#ejercicio-17---adivina-la-pelicula)
-  * [Ir a Ejercicio 1.8](#ejercicio-18---llenado-de-caracteres)
-  * [Ir a Ejercicio 1.9](#ejercicio-19)
-  * [Ir a Ejercicio 1.10](#ejercicio-110)
-  * [Ir a Ejercicio 1.11](#ejercicio-111)
+  
+|  |  |  |
+|:--:|:--:|:--:|
+| [![Ir a Ejercicio 1.7](https://github.com/user-attachments/assets/7ba2db94-8156-4e82-b8fb-e6b6681bebff)](#ejercicio-17) | [![Ir a Ejercicio 1.8](https://github.com/user-attachments/assets/f0abf1a6-9889-41b8-a7aa-b42d3ea8eb48)](#ejercicio-18) | [![Ir a Ejercicio 1.9](https://github.com/user-attachments/assets/6c443c63-572c-4a9d-bee7-2f5bf666fa6c)](#ejercicio-19) 
+| [![Ir a Ejercicio 1.10](https://github.com/user-attachments/assets/828cb323-e5eb-4b66-88ef-1e1ea8830d9c)](#ejercicio-110) | [![Ir a Ejercicio 1.11](https://github.com/user-attachments/assets/4409c96b-b1b9-4b60-b13b-d8db1458cfbc)](#ejercicio-111) 
+
 * ### Fundamentos - Ejercicios de corrección de código
-  * [Ir a Ejercicio 1.12](#ejercicio-112)
-  * [Ir a Ejercicio 1.13](#ejercicio-113)
+|  |  |  
+|:--:|:--:|
+| [![Ir a Ejercicio 1.12](https://github.com/user-attachments/assets/c226e180-807b-47c3-81ea-4c771c5181cb)](#ejercicio-112) | [![Ir a Ejercicio 1.13](https://github.com/user-attachments/assets/4f6d64b8-1c76-4f4b-9873-4f33fc1d0f2f)](#ejercicio-113)
 * ### Operadores - Errores del compilador y de ejecución
   * [Ir a Ejercicio 2.1](#ejercicio-21)
   * [Ir a Ejercicio 2.2](#ejercicio-22)
