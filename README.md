@@ -202,7 +202,7 @@ String err1(){
 </div>
 
 <div align='right'>
-<a href="#menu-de-s">Regresar al menú</a>
+<a href="#menu-de-ejercicios">Regresar al menú</a>
 </div>
 
 ## Ejercicio 1.2
